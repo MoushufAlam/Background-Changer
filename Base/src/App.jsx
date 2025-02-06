@@ -17,13 +17,13 @@ function App() {
         <div className="fixed flex flex-wrap justify-center bottom-12 inset-x-0 px-2">
           <div className="flex flex-wrap justify-center gap-3 shadow-lg rounded-3xl bg-white px-3 py-2">
             <button
-              onClick={() => setColor("red")}
+              onClick={() => setColor("Olive")}
               className="outline-none px-4 rounded-full text-white shadow-lg"
               style={{
-                backgroundColor: "red",
+                backgroundColor: "Olive",
               }}
               >
-              Red
+              Olive
             </button>
             <button
               onClick={() => setColor("green")}
