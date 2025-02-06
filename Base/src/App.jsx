@@ -1,14 +1,22 @@
-import { useState } from 'react'
-import './App.css'
+import React from "react";
+import { useState } from "react"
+
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [color, setColor] = useState("olive");
 
   return (
     <>
-      <h1 className='bg-green-400 font-bold text-6xl'>Hello world</h1>
+      {/* <div
+        className="w-full h-screen duration-200"
+        style={{
+          backgroundColor: color,
+        }}
+      ></div> */}
+      <h1 className="bg-green-400">Hello world</h1>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
