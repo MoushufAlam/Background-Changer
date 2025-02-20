@@ -18,7 +18,7 @@ function App() {
           <div className="flex flex-wrap justify-center gap-3 shadow-lg rounded-3xl bg-white px-3 py-2">
             <button
               onClick={() => setColor("Olive")}
-              className="outline-none px-4 rounded-full text-white shadow-lg"
+              className="outline-none px-4 rounded-full text-white shadow-lg hover:cursor-pointer"
               style={{
                 backgroundColor: "Olive",
               }}
@@ -27,7 +27,7 @@ function App() {
             </button>
             <button
               onClick={() => setColor("green")}
-              className="outline-none px-4 rounded-full text-white shadow-lg"
+              className="outline-none px-4 rounded-full text-white shadow-lg hover:cursor-pointer"
               style={{
                 backgroundColor: "green",
               }}
@@ -36,7 +36,7 @@ function App() {
             </button>
             <button
               onClick={() => setColor("blue")}
-              className="outline-none px-4 rounded-full text-white shadow-lg"
+              className="outline-none px-4 rounded-full text-white shadow-lg hover:cursor-pointer"
               style={{
                 backgroundColor: "blue",
               }}
